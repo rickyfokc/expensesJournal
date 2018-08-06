@@ -1,0 +1,262 @@
+extends layoutHeader
+
+block content
+  .fh5co-loader
+  #page
+    nav.fh5co-nav(role='navigation')
+      .container
+        .row
+          .col-xs-2.text-left
+            #fh5co-logo
+              a(href='index')
+                | Concept
+                span .
+          .col-xs-10.text-right.menu-1
+            ul
+              li.active
+                a(href='index') Home
+              li.has-dropdown
+                a(href='services') Services
+                ul.dropdown
+                  li
+                    a(href='#') Web Design
+                  li
+                    a(href='#') eCommerce
+                  li
+                    a(href='#') Branding
+                  li
+                    a(href='#') API
+              li
+                a(href='products') Products
+              li
+                a(href='about') About
+              li
+                a(href='blog') Blog
+              li
+                a(href='contact') Contact
+    header#fh5co-header.fh5co-cover(role='banner', style='background-image:url(concept/images/img_bg_1.jpg);', data-stellar-background-ratio='0.5')
+      .overlay
+      .container
+        .row
+          .col-md-7.text-left
+            .display-t
+              .display-tc.animate-box(data-animate-effect='fadeInUp')
+                h1.mb30 Let us build brands together shall we?
+                p
+                  a.btn.btn-primary(href='http://gettemplates.co/', target='_blank') Get Started
+                  em.or or
+                  a.link-watch.popup-vimeo(href='https://vimeo.com/channels/staffpicks/93951774') Watch Video
+    #fh5co-project
+      .container
+        .row.row-pb-md
+          .col-md-8.col-md-offset-2.text-left.fh5co-heading.animate-box
+            span Want Some Cool Stuff
+            h2 Recent Products
+            p
+              | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+        .row
+          .col-md-4.col-sm-6.fh5co-project.animate-box(data-animate-effect='fadeIn')
+            a(href='#')
+              img.img-responsive(src='concept/images/work-1.jpg', alt='Free HTML5 Website Template by gettemplates.co')
+              .fh5co-copy
+                h3 Clipboard Office
+                p Web Design
+          .col-md-4.col-sm-6.fh5co-project.animate-box(data-animate-effect='fadeIn')
+            a(href='#')
+              img.img-responsive(src='concept/images/work-2.jpg', alt='Free HTML5 Website Template by gettemplates.co')
+              .fh5co-copy
+                h3 Smart Layers
+                p Brand & Identity
+          .col-md-4.col-sm-6.fh5co-project.animate-box(data-animate-effect='fadeIn')
+            a(href='#')
+              img.img-responsive(src='concept/images/work-3.jpg', alt='Free HTML5 Website Template by gettemplates.co')
+              .fh5co-copy
+                h3 Notepad Mockup
+                p Illustration
+    #fh5co-services.fh5co-bg-section.border-bottom
+      .container
+        .row.row-pb-md
+          .col-md-8.col-md-offset-2.text-left.animate-box(data-animate-effect='fadeInUp')
+            .fh5co-heading
+              span We're expert
+              h2 What We Do
+              p
+                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        .row
+          .col-md-4.col-sm-6
+            .feature-center.animate-box(data-animate-effect='fadeInUp')
+              span.icon
+                i.icon-eye
+              h3 Retina Ready
+              p
+                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+              p
+                a(href='#') Learn more
+          .col-md-4.col-sm-6
+            .feature-center.animate-box(data-animate-effect='fadeInUp')
+              span.icon
+                i.icon-command
+              h3 Fully Responsive
+              p
+                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+              p
+                a(href='#') Learn more
+          .clearfix.visible-sm-block
+          .col-md-4.col-sm-6
+            .feature-center.animate-box(data-animate-effect='fadeInUp')
+              span.icon
+                i.icon-power
+              h3 Web Starter
+              p
+                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+              p
+                a(href='#') Learn more
+          .clearfix.visible-md-block
+          .col-md-4.col-sm-6
+            .feature-center.animate-box(data-animate-effect='fadeInUp')
+              span.icon
+                i.icon-eye
+              h3 Retina Ready
+              p
+                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+              p
+                a(href='#') Learn more
+          .clearfix.visible-sm-block
+          .col-md-4.col-sm-6
+            .feature-center.animate-box(data-animate-effect='fadeInUp')
+              span.icon
+                i.icon-command
+              h3 Fully Responsive
+              p
+                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+              p
+                a(href='#') Learn more
+          .col-md-4.col-sm-6
+            .feature-center.animate-box(data-animate-effect='fadeInUp')
+              span.icon
+                i.icon-power
+              h3 Web Starter
+              p
+                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+              p
+                a(href='#') Learn more
+          .clearfix.visible-md-block
+    #fh5co-testimonial.fh5co-bg-section
+      .container
+        .row.animate-box.row-pb-md
+          .col-md-8.col-md-offset-2.text-left.fh5co-heading
+            span You deserved happiness
+            h2 Happy Clients
+            p
+              | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+        .row
+          .col-md-6.animate-box
+            .testimonial
+              blockquote
+                p
+                  | “Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.”
+                p.author
+                  img(src='concept/images/person1.jpg', alt='Free HTML5 Bootstrap Template by gettemplates.co')
+                  cite — Mike Adam
+            .testimonial.fh5co-selected
+              blockquote
+                p
+                  | “Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius. Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.”
+                p.author
+                  img(src='concept/images/person2.jpg', alt='Free HTML5 Bootstrap Template by gettemplates.co')
+                  cite — Eric Miller
+          .col-md-6.animate-box
+            .testimonial.fh5co-selected
+              blockquote
+                p
+                  | “Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius. Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.”
+                p.author
+                  img(src='concept/images/person3.jpg', alt='Free HTML5 Bootstrap Template by gettemplates.co')
+                  cite — Eric Miller
+            .testimonial
+              blockquote
+                p
+                  | “Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.”
+                p.author
+                  img(src='concept/images/person1.jpg', alt='Free HTML5 Bootstrap Template by gettemplates.co')
+                  cite — Mike Adam
+    #fh5co-counter
+      .container
+        .row.animate-box(data-animate-effect='fadeInUp')
+          .col-md-8.col-md-offset-2.text-left.fh5co-heading
+            span Enjoy it
+            h2 Fun Facts
+            p
+              | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+        .row
+          .col-md-3.col-sm-6.animate-box(data-animate-effect='fadeInLeft')
+            .feature-center
+              span.icon
+                i.ti-download
+              span.counter
+                span.js-counter(data-from='0', data-to='15', data-speed='1500', data-refresh-interval='50') 1
+                | M+
+              span.counter-label Downloads
+          .col-md-3.col-sm-6.animate-box(data-animate-effect='fadeInLeft')
+            .feature-center
+              span.icon
+                i.ti-face-smile
+              span.counter
+                span.js-counter(data-from='0', data-to='120', data-speed='1500', data-refresh-interval='50') 1
+                | +
+              span.counter-label Happy Clients
+          .col-md-3.col-sm-6.animate-box(data-animate-effect='fadeInLeft')
+            .feature-center
+              span.icon
+                i.ti-briefcase
+              span.counter
+                span.js-counter(data-from='0', data-to='90', data-speed='1500', data-refresh-interval='50') 1
+                | +
+              span.counter-label Projects Done
+          .col-md-3.col-sm-6.animate-box(data-animate-effect='fadeInLeft')
+            .feature-center
+              span.icon
+                i.ti-time
+              span.counter
+                span.js-counter(data-from='0', data-to='12', data-speed='1500', data-refresh-interval='50') 1
+                | K+
+              span.counter-label Hours Spent
+    #fh5co-blog.fh5co-bg-section
+      .container
+        .row.animate-box.row-pb-md(data-animate-effect='fadeInUp')
+          .col-md-8.col-md-offset-2.text-left.fh5co-heading
+            span Thoughts & Ideas
+            h2 Our Blog
+            p
+              | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+        .row
+          .col-md-4.col-sm-4.animate-box(data-animate-effect='fadeInUp')
+            .fh5co-post
+              span.fh5co-date Sep. 12th
+              h3
+                a(href='#') Web Design for the Future
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+              p.author
+                img(src='concept/images/person1.jpg', alt='Free HTML5 Bootstrap Template by gettemplates.co')
+                cite  Mike Adam
+          .col-md-4.col-sm-4.animate-box(data-animate-effect='fadeInUp')
+            .fh5co-post
+              span.fh5co-date Sep. 23rd
+              h3
+                a(href='#') Web Design for the Future
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+              p.author
+                img(src='concept/images/person1.jpg', alt='Free HTML5 Bootstrap Template by gettemplates.co')
+                cite  Mike Adam
+          .col-md-4.col-sm-4.animate-box(data-animate-effect='fadeInUp')
+            .fh5co-post
+              span.fh5co-date Sep. 24th
+              h3
+                a(href='#') Web Design for the Future
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+              p.author
+                img(src='concept/images/person1.jpg', alt='Free HTML5 Bootstrap Template by gettemplates.co')
+                cite  Mike Adam

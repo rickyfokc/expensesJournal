@@ -1,0 +1,85 @@
+extends layoutHeader
+
+block content
+  .fh5co-loader
+  #page
+    nav.fh5co-nav(role='navigation')
+      .container
+        .row
+          .col-xs-2.text-left
+            #fh5co-logo
+              a(href='index')
+                | Concept
+                span .
+          .col-xs-10.text-right.menu-1
+            ul
+              li
+                a(href='index') Home
+              li.has-dropdown
+                a(href='services') Services
+                ul.dropdown
+                  li
+                    a(href='#') Web Design
+                  li
+                    a(href='#') eCommerce
+                  li
+                    a(href='#') Branding
+                  li
+                    a(href='#') API
+              li
+                a(href='products') Products
+              li
+                a(href='about') About
+              li
+                a(href='blog') Blog
+              li.active
+                a(href='contact') Contact
+    header#fh5co-header.fh5co-cover.fh5co-cover-sm(role='banner', style='background-image:url(images/img_bg_1.jpg);', data-stellar-background-ratio='0.5')
+      .overlay
+      .container
+        .row
+          .col-md-7.text-left
+            .display-t
+              .display-tc.animate-box(data-animate-effect='fadeInUp')
+                h1.mb30 Contact Us
+    #fh5co-contact
+      .container
+        .row
+          .col-md-5.col-md-push-1.animate-box
+            .fh5co-contact-info
+              h3 Contact Information
+              ul
+                li.address
+                  | 198 West 21th Street, 
+                  br
+                  |  Suite 721 New York NY 10016
+                li.phone
+                  a(href='tel://1234567920') + 1235 2355 98
+                li.email
+                  a(href='mailto:info@yoursite.com') info@yoursite.com
+                li.url
+                  a(href='http://gettemplates.co') gettemplates.co
+          .col-md-6.animate-box
+            h3 Get In Touch
+            form(action='#')
+              .row.form-group
+                .col-md-6
+                  label(for='fname') First Name
+                  input#fname.form-control(type='text', placeholder='Your firstname')
+                .col-md-6
+                  label(for='lname') Last Name
+                  input#lname.form-control(type='text', placeholder='Your lastname')
+              .row.form-group
+                .col-md-12
+                  label(for='email') Email
+                  input#email.form-control(type='text', placeholder='Your email address')
+              .row.form-group
+                .col-md-12
+                  label(for='subject') Subject
+                  input#subject.form-control(type='text', placeholder='Your subject of this message')
+              .row.form-group
+                .col-md-12
+                  label(for='message') Message
+                  textarea#message.form-control(name='message', cols='30', rows='10', placeholder='Say something about us')
+              .form-group
+                input.btn.btn-lg.btn-primary(type='submit', value='Send Message')
